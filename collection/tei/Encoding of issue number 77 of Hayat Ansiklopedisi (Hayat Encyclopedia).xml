@@ -39,7 +39,7 @@
             <title>Hayat Ansiklopedisi</title>
             <biblScope unit="volume">7</biblScope>
             <biblScope unit="issue">77</biblScope>
-            <biblScope unit="page">3666-3672</biblScope>
+            <biblScope unit="page">3666-3673</biblScope>
          </seriesStmt>
          <sourceDesc>
             <biblStruct>
@@ -65,7 +65,7 @@
          <projectDesc>
             <p>This TEI encoding has been performed as part of a digitisation project in the
                Digitising Cultural Heritage Materials course at the University of Borås.</p>
-            <p>For this project, ten pages of the issue number 77 of the periodical encyclopedia
+            <p>For this project, ten pages (plus cover and back pages) of the issue number 77 of the periodical encyclopedia
                "Hayat Ansiklopedisi" have been selected to digitize.</p>
          </projectDesc>
       </encodingDesc>
@@ -76,7 +76,7 @@
             <label>Cover</label>
             <figDesc>Cover page with illustration</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Cover.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Cover.jpeg"
             />
          </figure>
       </surface>
@@ -85,7 +85,7 @@
             <label>CoverBackside</label>
             <figDesc>Back side of the cover page</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/CoverBackside.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/CoverBackside.jpeg"
             />
          </figure>
       </surface>
@@ -94,7 +94,7 @@
             <label>Page3666</label>
             <figDesc>First page with entries </figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3666.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3666.jpeg"
             />
          </figure>
       </surface>
@@ -103,7 +103,7 @@
             <label>Page3667</label>
             <figDesc>Second page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3667.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3667.jpeg"
             />
          </figure>
       </surface>
@@ -112,7 +112,7 @@
             <label>Page3668</label>
             <figDesc>Third page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3668.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3668.jpeg"
             />
          </figure>
       </surface>
@@ -121,7 +121,7 @@
             <label>Page3669</label>
             <figDesc>Forth page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3669.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3669.jpeg"
             />
          </figure>
       </surface>
@@ -130,7 +130,7 @@
             <label>Page3670</label>
             <figDesc>Fifth page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3670.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3670.jpeg"
             />
          </figure>
       </surface>
@@ -139,7 +139,7 @@
             <label>Page3671</label>
             <figDesc>Sixth page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3671.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3671.jpeg"
             />
          </figure>
       </surface>
@@ -148,7 +148,7 @@
             <label>Page3672</label>
             <figDesc>Seventh page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3672.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3672.jpeg"
             />
          </figure>
       </surface>
@@ -157,7 +157,7 @@
             <label>Page3673</label>
             <figDesc>Eighth page with entries</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3673.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3673.jpeg"
             />
          </figure>
       </surface>
@@ -166,7 +166,7 @@
             <label>BackFrontSide</label>
             <figDesc>Front side of the back page</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/BackFrontSide.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/BackFrontSide.jpeg"
             />
          </figure>
       </surface>
@@ -175,7 +175,7 @@
             <label>BackPage</label>
             <figDesc>Back</figDesc>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/BackPage.jpeg"
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/BackPage.jpeg"
             />
          </figure>
       </surface>
@@ -186,22 +186,20 @@
             <p>Hayat Ansiklopedisi</p>
             <p>77</p>
             <p>KURUS 25</p>
-            <p>Nesreden: <lb/>Matbaacilik ve Nesriyat Turk Anonim Sirketi-Cumhuriyet
-               muesseseleri</p>
-            <p>ON BES GUNDE BIR CUZ OLUNUR</p>
+            <p>Nesreden: <lb/>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet müesseseleri</p>
+            <p>ON BEŞ GÜNDE BİR CÜZ NEŞROLUNUR</p>
          </div>
          <titlePage>
             <docTitle>
                <titlePart type="main" rend="bold">Hayat Ansiklopedisi</titlePart>
             </docTitle>
             <docImprint>
-               <publisher>Matbaacilik ve Nesriyat Turk Anonim Sirketi-Cumhuriyet
-                  muesseseleri</publisher>
+               <publisher>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet müesseseleri</publisher>
             </docImprint>
          </titlePage>
          <figure>
             <graphic
-               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Cover.jpeg"/>
+               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img7.jpg"/>
             <figDesc>An image of parrots on a bench</figDesc>
          </figure>
          <div type="coverbackside" facs="#CoverBackside">
@@ -347,7 +345,7 @@
                <pb n="3668" facs="#Page3668"/>
                <figure>
                   <graphic
-                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img1.jpg"/>
+                     url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img1.jpg"/>
                   <p>Pasteur lâboratuvarında: bakteriyayı keşfetmekle <lb/>dünyaya benzersiz hizmeti
                      dokunan büyük doktor taharriyatla meşgul.</p>
                </figure>
@@ -428,13 +426,13 @@
                <!-- How to markup this? -->
                <figure>
                   <graphic
-                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img2.jpg"/>
+                     url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img2.jpg"/>
                   <p>Bu âlet nebatın bütün toprak altındaki kısmını <lb/>satha çıkarır ve patates
                      yumrularını toplar.</p>
                </figure>
                <figure>
                   <graphic
-                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img6.jpg"/>
+                     url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img6.jpg"/>
                   <p>Bütün ziraî patatesler yabanî neviden <lb/>(Solanum tuberosum) dan gelirler.
                      Ya- <lb/>bani patatesin havai kısmı bilhassa çi- <lb/>çekleri zirai patatese
                      çok benzer. Yalnız <lb/>yumrular zirai patateste çok büyüktür.</p>
@@ -488,7 +486,7 @@
                   <head>ÇOK MİKTARDA PATATES YETİŞTİREN MEMLEKETLERDE</head>
                   <figure>
                      <graphic
-                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img3.jpg"/>
+                        url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img3.jpg"/>
                      <p>Burada çiçek açmış bir patates tarlası göze çarpmaktadır. Patates ziraatına
                         tahsis edilen tarla toprak <lb/>altı aktarilmaksızin pulluk ile mümkün
                         olduğu kadar derin bir surette sürülür. Patates gözleri (tohumları)
@@ -537,7 +535,7 @@
                      tefek savaşlarda cür’et gösterdi ve le-</p>
                   <figure>
                      <graphic
-                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img4.jpg"/>
+                        url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img4.jpg"/>
                      <p>Patronanın tahttan attığı Ahmet III.</p>
                   </figure>
                   <p>vendlerinden bulunduğu geminin adına nis- <lb/>petle Patrona lâkabını aldı,
@@ -629,7 +627,7 @@
 
                   <figure>
                      <graphic
-                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img5.jpg"/>
+                        url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img5.jpg"/>
                      <p>Patronanın öldürttüğü Sadrazam İbrahim Paşa</p>
                   </figure>
 
@@ -653,7 +651,7 @@
                <figDesc>A black and white illustration of a couple of children reading
                   books</figDesc>
             </figure>
-            <p><hi rend="bold">CUMHURIYET ÇOCUĞUNUN KİTAPLARI</hi></p>
+            <p><hi rend="bold">CUMHURİYET ÇOCUĞUNUN KİTAPLARI</hi></p>
             <div>
                <head>Romanlar, Hikâyeler Masallar...</head>
                <p>Şimdiye kadar çocuklarımızın seviyesi, ihtiyacı ve zevki düşünülerek <lb/>muntazam
