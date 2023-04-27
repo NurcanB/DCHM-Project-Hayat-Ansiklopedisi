@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding of issue number 77 of Hayat Ansiklopedisi (Hayat Encyclopedia)</title>
+            <author>
+               <persName>Faik Sabri Duran</persName>
+               <persName>Mehmet Samih Fethi</persName>
+               <persName>Salih Duran</persName>
+            </author>
+            <respStmt>
+               <name>Nurcan Bektas Hay</name>
+               <resp>Encoded by</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Nurcan Bektas Hay</authority>
+            <distributor>University of Borås</distributor>
+            <date>March 2023</date>
+            <pubPlace>
+               <address>
+                  <orgName>University of Borås</orgName>
+                  <addrLine>Allégatan 1</addrLine>
+                  <addrLine>503 32 Borås</addrLine>
+                  <addrLine>Sweden</addrLine>
+               </address>
+            </pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Encoding distributed under a CC-BY-SA 3.0 license.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Hayat Ansiklopedisi</title>
+            <biblScope unit="volume">7</biblScope>
+            <biblScope unit="issue">77</biblScope>
+            <biblScope unit="page">3666-3672</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Hayat Ansiklopedisi</title>
+                  <author>
+                     <persName>Faik Sabri Duran</persName>
+                     <persName>Mehmet Samih Fethi</persName>
+                     <persName>Salih Duran</persName>
+                  </author>
+                  <imprint>
+                     <publisher>Matbaacilik ve Nesriyat Turk Anonim Sirketi-Cumhuriyet
+                        Muesseseleri</publisher>
+                     <pubPlace>Istanbul</pubPlace>
+                     <date from="1932" to="1936">1932-1936</date>
+                     <biblScope unit="issue">77</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This TEI encoding has been performed as part of a digitisation project in the
+               Digitising Cultural Heritage Materials course at the University of Borås.</p>
+            <p>For this project, ten pages of the issue number 77 of the periodical encyclopedia
+               "Hayat Ansiklopedisi" have been selected to digitize.</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="Cover">
+         <figure>
+            <label>Cover</label>
+            <figDesc>Cover page with illustration</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Cover.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="CoverBackside">
+         <figure>
+            <label>CoverBackside</label>
+            <figDesc>Back side of the cover page</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/CoverBackside.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3666">
+         <figure>
+            <label>Page3666</label>
+            <figDesc>First page with entries </figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3666.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3667">
+         <figure>
+            <label>Page3667</label>
+            <figDesc>Second page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3667.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3668">
+         <figure>
+            <label>Page3668</label>
+            <figDesc>Third page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3668.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3669">
+         <figure>
+            <label>Page3669</label>
+            <figDesc>Forth page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3669.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3670">
+         <figure>
+            <label>Page3670</label>
+            <figDesc>Fifth page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3670.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3671">
+         <figure>
+            <label>Page3671</label>
+            <figDesc>Sixth page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3671.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3672">
+         <figure>
+            <label>Page3672</label>
+            <figDesc>Seventh page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3672.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Page3673">
+         <figure>
+            <label>Page3673</label>
+            <figDesc>Eighth page with entries</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Page3673.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="BackFrontSide">
+         <figure>
+            <label>BackFrontSide</label>
+            <figDesc>Front side of the back page</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/BackFrontSide.jpeg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="BackPage">
+         <figure>
+            <label>BackPage</label>
+            <figDesc>Back</figDesc>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/BackPage.jpeg"
+            />
+         </figure>
+      </surface>
+   </facsimile>
+   <text xml:lang="tr">
+      <front>
+         <div type="cover" facs="#Cover">
+            <p>Hayat Ansiklopedisi</p>
+            <p>77</p>
+            <p>KURUS 25</p>
+            <p>Nesreden: <lb/>Matbaacilik ve Nesriyat Turk Anonim Sirketi-Cumhuriyet
+               muesseseleri</p>
+            <p>ON BES GUNDE BIR CUZ OLUNUR</p>
+         </div>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main" rend="bold">Hayat Ansiklopedisi</titlePart>
+            </docTitle>
+            <docImprint>
+               <publisher>Matbaacilik ve Nesriyat Turk Anonim Sirketi-Cumhuriyet
+                  muesseseleri</publisher>
+            </docImprint>
+         </titlePage>
+         <figure>
+            <graphic
+               url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Cover.jpeg"/>
+            <figDesc>An image of parrots on a bench</figDesc>
+         </figure>
+         <div type="coverbackside" facs="#CoverBackside">
+            <p>1935<lb/>Cumhuriyet<lb/>Almanagi<lb/>Her evde ve her elde <lb/>bulunmasi lazim gelen
+               <lb/>kucuk bir ansiklopedidir.<lb/>Mutlaka bir tane aliniz.<lb/>Fiati 100 kurus</p>
+         </div>
+      </front>
+      <body>
+         <div type="page">
+            <pb n="3666" facs="#Page3666"/>
+            <cb n="1"/>
+            <div type="entry" n="1">
+               <head><hi rend="bold">PAS</hi></head>
+               <p>Demir yüzü suyun veya havanın <lb/>oksigeni ile yandığı zaman teşekkül
+                  eden<lb/>demir külüne Pas denir. Demir yüzünden pas<lb/>toz halinde raspa edilir.
+                  Bu demir oksidi<lb/>toprakla karışarak toprağa kahve rengi ve- <lb/>ya
+                  kırmızımtırak renk verir. Suda inhilâl<lb/>eden pas nebatlar tarafından
+                  kullanılır. Su <lb/>ve nebat vasıtasile aldığımız demir pası ka-<lb/>nımıza
+                  kırmızı rengi verir. Ruskin demri hak- <lb/>kında diyor ki:<quote>Demir hava ile
+                     teneffüs<lb/>eder, oksigenle yanar ve hayatını bize verir <lb/>ve biz de onunla
+                     yaşarız</quote>.</p>
+               <p>Dövme demir, dökme demir ve çelik su<lb/>veya ratip havaya maruz kalınca paslanır.
+                  <lb/>Bir yağmur damlası temiz parlak demir sat-<lb/>hına düştükten kısa bir müddet
+                  sonra demi- <lb/>rin parlak sathı yeşilimtırak bir renk alır.<lb/>Bu madde de
+                  demirin sudaki oksigenle bir- <lb/>leşmesinden mütevellit mürekkep
+                  cisimdir.<lb/>Bu mürekkep cisim biraz sonra kırmızımtı- <lb/>rak kahve rengi olur.
+                  Bu da pastır. Pas de-<lb/>mire yapışmayıp suda asılı kalır ve su tebah- <lb/>hur
+                  edince demirin yüzünde kalır. Su buha-<lb/>rı demir yüzünde tekasüf etmedikçe
+                  demir <lb/>su buharı içinde uzun müddet paslanmadan<lb/>kalır. Pas bir defa
+                  teşekkül edince artık o <lb/>demir parçası saf demirin paslanmıyacağı<lb/>bir
+                  havada bile, paslanır; çünkü temiz de- <lb/>mir yüzünde tutunamıyan su pas
+                  üzerinde<lb/>kolay toplanır.</p>
+               <cb n="2"/>
+               <p>Bu halde demiri paslanmaktan vikaye<lb/>etmek paslandıktan sonra pası durdurmak-
+                  <lb/>tan kolaydır. Demir yüzüne yağlıboya sür<lb/>mek, demir yüzünü galvanize
+                  etmek veya <lb/>emaye kılmakla pasın önüne geçilebilir. Ma-<lb/>denlerin yüzündeki
+                  pas petrolla temizlenir.</p>
+            </div>
+            <div type="entry" n="2">
+               <head><hi rend="bold">PASAROFCA MUAHEDESI</hi></head>
+               <p>Osmanlı <lb/>tarihinde mühim yer alan siyasi vesikalar- <lb/>dandır, Avusturya ve
+                  Venedikle yapılmıştır. <lb/>Muahedeye takaddüm eden harp, Avustur- <lb/>yanın
+                  OsmanlI ülkesine göz dikmesinden ve <lb/>bu ülkeyi parça parça ele geçirmek
+                  isteme- <lb/>sinden doğmuştur. OsmanlIlar (1711) de yap- <lb/>tıkları Prut
+                  muahedesile (bu kelimeye bakı- <lb/>nız) Rusyayı tanımışlardı, yıllardanberi Mo-
+                  <lb/>ra eyaletini istilâ etmiş olan Venediklileri o- <lb/>radan çıkarmak için
+                  haklı bir harbe giriş- <lb/>mişlerdi. Avusturya, bunu first saydı, sudan
+                  <lb/>bahanelerle OsmanlIlar aleyhine harp açtı <lb/>(1716). Osmanlı ordusu
+                  yorgundu, buna rağ- <lb/>men taarruza geçti, (Petrovaradin) de Avus- <lb/>turya
+                  ordusile karşılaştı, Serdar Ali paşa al- <lb/>nından vurularak öldüğünden harbi
+                  kaybet- <lb/>ti. Artık inhizamm ardı arası kesilmiyordu. <lb/>Meşhur Prens
+                  «Eugéne» in kumanda ettiği <lb/>ordular Tamuşvar eyaletini, Bükreşi, Bel-
+                  <lb/>grade Makedonya ve Trakyayı tehdit edecek <lb/>vaziyete girdi. Bunun üzerine
+                  İngiliz Elçisi- <lb/>nin tavassutile Passarovitzde sulh müzake- <lb/>resine
+                  girişildi ve bir muahede imzalandı <lb/>(1712).</p>
+
+               <p>Prens Eugéne, Venedik hükümetinin de <lb/>bu müzakereye girmesini istediğinden o
+                  hü- <lb/>kümetin murahhasları Pasarofca muahede- <lb/>sine imza koymuşlar ve
+                  OsmanlIlarla sulh <lb/>yapmışlardır.</p>
+
+               <p>Muahede mucibince Venedik Moradan <lb/>el çekiyordu, fakat Dalmaçya ile Arnavut-
+                  <lb/>lukta ve Hersek kıt’asinda Türklerden aldı- <lb/>ğı yerleri muhafaza
+                  ediyordu. Avusturya <lb/>Belgradla beraber şimalî Sırbistanı, Semen- <lb/>dereyi,
+                  Tamuşvar eyaletini, Tuna ve Alota <lb/>suları arasındaki küçük Ulah kıt’asını
+                  kaza- <lb/>nıyordu.</p>
+
+               <p>Avusturya bu harbe girmezden evel İs- <lb/>panya tahtı yüzünden başka taraflarda
+                  meş-</p>
+               <p>3666</p>
+               <pb n="3667" facs="#Page3667"/>
+               <cb n="1"/>
+               <p>ul idi. Osmanlı hükümeti o sırada Avustur- <lb/>yaya hücum etmiş alsaydı büyük
+                  kazançlar <lb/>temin edebilirdi. Babıâli «mertlik» fikrine <lb/>bağlı kalarak bu
+                  fırsatı kaçırdı ve Avustur- <lb/>yanin hücumuna uğradı.</p>
+
+               <p>Pasarofca muahedesi, Osmanlı devleti- <lb/>nin artık Avrupayı titretecek kuvetten
+                  tama- <lb/>mile uzak kaldığını ispat eden bir vesikadır. <lb/>Ayni vesika
+                  Avrupanin alt ve yan kısmında- <lb/>ki coğrafî vaziyetinin, tarihî istikametlerin
+                  <lb/>de değiştiğini gösterir. Lehistanla Venedik <lb/>batıyordu. Buna karşı
+                  Osmanlı imparatorlu- <lb/>ğunu iki yeni ve kuvetli düşman çevirmeğe
+                  <lb/>başlıyordu. Bunlardan biri Macaristanı, T- <lb/>ranslıvanyayı Osmanlılardan
+                  kurtarmak su- <lb/>retile büyümüş, Sırbistanın ortalarına kadar <lb/>da gelmiş
+                  olan Avusturya idi. Öbürü de Os- <lb/>manlı tebeasından olan Rumlar ve Bulgar-
+                  <lb/>larla ayni mezhebi taşıyan, bu yüzden o iki <lb/>milletin yardımlarını temin
+                  etmek mevkiin- <lb/>de bulunan Rusya idi.</p>
+
+               <p>Pasarofcanın açtığı yara, Osmanlılar ta- <lb/>rafından hiç bir suretle
+                  kapatılamamıştır. <lb/>Ve bu yaradan başka yaralar da doğmuş- <lb/>tur. —M. S.</p>
+               <!-- How to markup this? -->
+            </div>
+            <div type="entry" n="3">
+               <head><hi rend="bold">PASİNLER.</hi></head>
+               <p>— Erzurum vilâyetine bağlı <lb/>kazalardan biridir. Kazanın merkezi Hasan-
+                  <lb/>kale kasabasıdır. Erzurumu şarka açan Ka- <lb/>leçayı vadisinin üzerinde ve
+                  dar bir yerinde <lb/>kurulmuş bulunduğu için mevkice ehemmi- <lb/>yeti vardır.</p>
+
+               <p>Kaza arazisi çok yerde münbit toprak- <lb/>lardan mürekkeptir. Su boylarındaki
+                  yatak <lb/>yerleri, dağ yamaçları ve etekleri çiftçilik <lb/>yapılabilecek iyi
+                  topraklarla örtülüdür. Ka- <lb/>za arazisinin iki tarafını çeviren dağlıklar
+                  <lb/>başlıca ağaçları meşe ve çam gibi nevilerden <lb/>mürekkep zengin ormanlarla
+                  kaplıdır. Hay- <lb/>van beslemeye elverişli geniş meraları var- <lb/>dır.
+                  Yüksekliği dolayısile iklimi pek sert ise <lb/>de her çeşit hububatı yetiştirir.
+                  Meyvaları ve <lb/>sebzeleri azdır. Kaza topraklarında alçı, ki- <lb/>reç ve yapı
+                  taşları ocakları vardır. Bir çok <lb/>yerlerinde de kükürtlü kaplıçalarla maden
+                  <lb/>sularına tesadüf edilir. Ahalinin en çok uğ- <cb n="2"/>
+                  <lb/>raştığı sanayi halı, kilim, şal, keçe gibi do- <lb/>kuma sanayiidir.
+                  Arazisinin genişliği 4,545 <lb/>Km.2, nüfusu 34,567; vasati kesafeti 7,6, mev-
+                  <lb/>kilerinin sayısı 225 tir. — A. S.</p>
+               <!-- How to markup this? -->
+            </div>
+            <div type="entry" n="4">
+               <head><hi rend="bold">PASTEUR, LOUİS (1822-1895)</hi></head>
+               <p>— 1881 se- <lb/>nesi haziranının 2 inci günü küçük Penilly- <lb/>le - Fort
+                  köyündeki bir çiftlikte bir takım <lb/>Fransız memurları, maruf âlimler, tıp cemi-
+                  <lb/>yetlerine mensup delegeler, Paris gazeteci- <lb/>leri ve bir kaç çiftçi mühim
+                  bir meselenin <lb/>neticesini sabırsızlıkla bekliyorlardı. Bu se- <lb/>yircilerin
+                  bir kısmı orada yatan bir takım ö- <lb/>lü koyunlara ve diğerleri de civardaki
+                  yola <lb/>bakıyorlardı. Bu seyircilerden birisi «İşte o <lb/>geliyor!» dediği
+                  zaman gözler çiftlik kapı- <lb/>sında görülen küçük sakallı bir adama çev-
+                  <lb/>rilmişti. Seyircilere selâm veren adam ölü <lb/>koyanların ceestlerini saydı
+                  ve 25 olduğunu <lb/>söyledi. İşte bu adam maruf kimyager ve <lb/>dünyanın büyük
+                  ilim adamlarından biri olan <lb/>Pasteur idi.</p>
+
+               <p>Bundan bir kaç ay evel Pasteur koyun ve <lb/>davarların antraksi belâsından
+                  kurtarılabil- <lb/>mesi imkân dahilinde olduğunu söylemişti. <lb/>Bu mikrop bundan
+                  beş sene evel Alman Kock <lb/>tarafından keşfedilmişti. Pasteur hastalığın
+                  <lb/>zayıf bulunan mikroplarını hayvan kanına <lb/>aışlamakla hayvanların antrakse
+                  kraşı mua- <lb/>fiyet kazanacaklarını bulmuştu. Bu iddiası- <lb/>nı saçma 'bulan
+                  baytarlar Pasteure «İsbat et» <lb/>diyorlardı. Bu teklifi kabul eden Pasteur elli
+                  <lb/>koyundan 25 ini aşıladı ve 25 ini de normal <lb/>halde bıraktı. Bir kaç gün
+                  sonra bu elli ko- <lb/>yuna kuvetli ve canlı antraks mikropları şı- <lb/>rınga
+                  edildi.</p>
+
+               <p>Pasteur «Bunlardan aşılı olan 25 koyun <lb/>yaşıyacak ve diğerleri ölecek»
+                  demişti. Bu <lb/>keşfi dünyanın en mühim keşiflerinden biri <lb/>olarak telâkki
+                  eden Fransızlar Pasteurü mil- <lb/>lî kahramanlarından biri yaptılar ve Napo-
+                  <lb/>leon ile Viktor Hugonun önüne geçirdiler.</p>
+
+               <p>Pasteur usulünü ileri götürerek korkunç <lb/>kuduz hastalığına da çare buldu.
+                  Havvanları <lb/>kuduz mikroplarına karşı muaf kılmağa mu- <lb/>vaffak oldu. Bundan
+                  sonra da kuduz köpek <lb/>tarafından ısırılmış olan bir çocuğun haya-</p>
+               <p>3667</p>
+               <pb n="3668" facs="#Page3668"/>
+               <figure>
+                  <graphic
+                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img1.jpg"/>
+                  <p>Pasteur lâboratuvarında: bakteriyayı keşfetmekle <lb/>dünyaya benzersiz hizmeti
+                     dokunan büyük doktor taharriyatla meşgul.</p>
+               </figure>
+               <p>3668</p>
+               <pb n="3669" facs="#Page3669"/>
+               <cb n="1"/>
+               <p>tını kurtardı ve kuduz aşısını buldu. Pasteu- <lb/>rün keşiflerini yakından takip
+                  eden Lord <lb/>Lister anti septik cerrahî usullerini buldu. <lb/>Pasteur
+                  Fransadaki ipek böceklerini öldüren <lb/>ve ipek sanayiini durduran mikrobu bulup
+                  <lb/>bunu da imhaya muvaffak oldu. Sütü saf <lb/>halinde muhafaza usulünü yani
+                  «Pasteurize» <lb/>usulünü de o buldu. Pasteurün keşifleri son <lb/>50 sene
+                  zarfında bakteriyolog! işlerinde ya- <lb/>yılan mühim keşiflere yol açmıştır.
+                  Büyük <lb/>âlimlerden biri olan Huksley Pasteur keşifle- <lb/>rinin Fransaya
+                  yapmış olduğu yardımın F- <lb/>ransızların 1870 harbinde Almanlara verdik-
+                  <lb/>leri tazminatı geçtiğini söylüyor.</p>
+
+               <p>Pasteur bir debağın oğlu olup Volede doğ- <lb/>muştur. Uzun mücadeleden sonra
+                  Haristeki <lb/>École Normalee girmeğe muvaffak olmuştur. <lb/>Dünyanın en büyük
+                  kimyagerlerinden biri <lb/>olan Pasteurün mektep şahadetnamesindeki <lb/>kimya
+                  numarası «fena» idi. O daima çalış- <lb/>mağı severdi ve yarı yapılan işlere
+                  kanmaz- <lb/>dı. 1868 de Sorbonne kimya profesörlüğüne <lb/>seçildi ve 1888 de
+                  bütün dünyaca malûm o- <lb/>lan Pasteur enstitüsünün reisi oldu. Pasteur
+                  <lb/>ömrünü ilme ve ilim uğruna hasreden bir <lb/>kaç ilim adamından biridir.</p>
+
+               <p>Süt ve yahut diğer mayilerin Pasteurize <lb/>edilmesinden maksat sütü ekşiten
+                  yahut <lb/>hastalık hâsıl eden bakterileri öldürmekten <lb/>ibarettir. Bu da mayii
+                  55 ilâ 70 derecede (da- <lb/>ha iyisi 60 ilâ 63 derecede) 10 ilâ 30 dakika
+                  <lb/>ısıtmakla yapılır. Bu hararet buharla temin <lb/>edilmekte olup süt şişelere
+                  konulurken ci- <lb/>hazdan bati, fakat mütemadi bir sel halinde <lb/>geçer Evlerde
+                  çocuklara Pasteurize edilmiş <lb/>süt hazırlıyabilmek için piyasada ucuz ci-
+                  <lb/>hazlar satılmaktadır.</p>
+            </div>
+            <div type="entry" n="5">
+               <head><hi rend="bold">PATAGONYA</hi></head>
+               <p>Cenubî Amerika kıt’a- <lb/>sının cenup kısmı Patagonyayı teşkil eder. <lb/>Bu
+                  mıntaka Kolorado nehrinin cenubundan <lb/>başlar ve Tierradel Fuego denilen Ateş
+                  ada- <lb/>sına kadar uzanır. 1881 de imzalanan bir <lb/>muahede ile bu arazi Şili
+                  ile Arjantin hükü- <lb/>metleri arasında taksim edilmiştir. Şiliye <lb/>isabet
+                  eden kısım Patagonyanın garbında ve <lb/>And silsilesinin garbında kalan yerler
+                  ile A- <cb n="2"/>
+                  <lb/>teş adasının yarısını kaplar. Buraları iyi su- <lb/>lanan, ormanlar ile kaplı
+                  ve senede üç ay <lb/>kadar karlar altında kalan arazidir. Arjan- <lb/>tin de kalan
+                  kısmı buna hiç benzemez. Bun- <lb/>lar ağaçsız ve kurak düzlüklerdir. Buralarda
+                  <lb/>şiddetli rüzgârlar eser, her şeyi çabuk yakar <lb/>kurutur ve bir şey ekilip
+                  biçilmesine imkân <lb/>vermez. Bu sahada yapılabilen en mühim te- <lb/>şebbüs
+                  koyun beslemek olmuştur. Yalnız <lb/>sun’î surette sulanan yerlerde ziraatin müm-
+                  <lb/>kün olabileceğini tecrübeler göstermşitir. <lb/>Patagonyanın yerlileri
+                  sür’atle azalmakta ve <lb/>yerlerini muhacirler almaktadır. Buraya ge- <lb/>lip
+                  yerleşen muhacirlerin ekseriyetini Yu- <lb/>goslavian İspanyollar ve İngilizler
+                  teşkil edi- <lb/>yor. Patagonyanın bazı taraflarında demir- <lb/>yolları yapılmıya
+                  başlanmıştır. En mühim ka- <lb/>sabası Şili hududu içinde bulunan Magallo-
+                  <lb/>nes limanıdır.</p>
+            </div>
+            <div type="entry" n="6">
+               <head><hi rend="bold">PATATES NEBATI.</hi></head>
+               <p>— Cortez ve Pizarro <lb/>altın ve gümüş için Meksikayı ve Peruyu
+                  <lb/>zaptettikleri vakit yerlilerin yediğimiz pata- <lb/>tesin ceddi olan yumru
+                  köklü nebatı yetiş- <lb/>tidiklerini ve yediklerini görmüşlerdir. Bu <lb/>kâşifler
+                  bu patateslerden bir miktarını is- <lb/>panyaya götürdüler. Avrupaya yeni nebat
+                  <lb/>getirildiği haberi İtalya, Hollanda ve diğer <lb/>memleketlere yayıldı. Cesur
+                  İngiliz gemicisi <lb/>John Hawkins ilk patates nümunesini 1563 <lb/>tarihinde
+                  Cenubî Amerikadan İngiltereye ge- <lb/>tirdi. 20 sene sonra Sir Walter Raleigh
+                  Vir- <lb/>ginia seferinden döndükten sonra Kraliçe <lb/>Elisabethe bir çok patates
+                  nümuneleri gös- <lb/>terdi.</p>
+
+               <p>Sir Walter Raleighin yaptığı pek küçük <lb/>bir hizmet olmakla beraber bilâhare bu
+                  yum- <lb/>ru sâkın (patates) cihanda aldığı ehemmi- <lb/>yet belki Amerikanın
+                  altınlarından ve gü- <lb/>müşlerinden pek ziyade olmuştur. Ziraat ile
+                  <lb/>gittikçe ıslah ve bir çok tenevvüleri elde edi- <lb/>len patates hektar
+                  başına randamanı en faz- <lb/>la olan nişastalı gıdalardandır. Bir hektar
+                  <lb/>sahadan 100-200 hektolitre hattâ iyi gübre- <lb/>lendiği takdirde 300
+                  hektolitreye yakın pata- <lb/>tes alınabilir. (Aşağı yukarı 15 - 20 hektolit-
+                  <lb/>re patates 1000 - 1200 kilogram gelir). İklim</p>
+               <p>3669</p>
+               <pb n="3670" facs="#Page3670"/>
+               <cb n="1"/>
+               <p>MAKINA İLE PATATES HASADI</p>
+               <!-- How to markup this? -->
+               <figure>
+                  <graphic
+                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img2.jpg"/>
+                  <p>Bu âlet nebatın bütün toprak altındaki kısmını <lb/>satha çıkarır ve patates
+                     yumrularını toplar.</p>
+               </figure>
+               <figure>
+                  <graphic
+                     url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img6.jpg"/>
+                  <p>Bütün ziraî patatesler yabanî neviden <lb/>(Solanum tuberosum) dan gelirler.
+                     Ya- <lb/>bani patatesin havai kısmı bilhassa çi- <lb/>çekleri zirai patatese
+                     çok benzer. Yalnız <lb/>yumrular zirai patateste çok büyüktür.</p>
+               </figure>
+               <cb n="2"/>
+               <p>ve toprak şartlarına göre muhtelif tenevvü- <lb/>lerl elde edilen patates bugün
+                  pek geniş bir <lb/>zer sahasına maliktir. Arpa müstesna hubu- <lb/>batın hepsinden
+                  ziyade zer sahası kutbi ha- <lb/>valiye yaklaşır ve mürtefi yerlere kadar çı-
+                  <lb/>kar.</p>
+
+               <p>120 - 140 milyon ton arasında oynayan <lb/>cihanın patates istihsali kıymet (altın
+                  para) <lb/>hesabile cihanın senelik altın ve gümüş is- <lb/>tihsalini çok aşar.
+                  Aşağı yukarı cihan istih- <lb/>salinin onda dokuzunu Avrupa vücuda geti- <lb/>rir.
+                  Çünkü nüfusu pek kalabalık olan bu kı- <lb/>ta halkının nişasta gıdasını ve
+                  ihtiyat gı- <lb/>dsını bu nebat temin eder.</p>
+
+               <p>Şimalî Fransa, Almanya, İsviçre, Fele- <lb/>menk, Belçika, Danimarka, Norveç ve
+                  Rus- <lb/>ya büyük mikyasta patates istihsal ve istih- <lb/>lâk eden
+                  memleketlerdendir.</p>
+
+               <p>Patates ziraat! Avrupa tarihinde mühim <lb/>rol oynamıştır. Otuz sene muharebesi
+                  esna- <lb/>sındaki kıtlık müzayikasını patates tahfif <lb/>etmiştir. 1688
+                  tarihlerinde patates İrlanda- <lb/>nin başlıca gıdası yerine geçmiştir. 1845 ta-
+                  <lb/>rihinde patates mahsulünde vukua gelen ade- <lb/>mi muvaffakiyet
+                  İrlandalIların Amerikaya <lb/>hicret etmelerine mebde teşkil etmiştir. Maa-
+                  <lb/>mafih patates ziraatinin yayılması güçlükle <lb/>olmuştur. Miskinlik
+                  hastalığının (cüzzam) <lb/>ve diğer bir takım ısıtma hastalıklarının gû- <lb/>ya
+                  patates ile insana geçtiği hurafesi uzun <lb/>müddet Avrupada bu mahsulün
+                  yetişmesine <lb/>mani teşkil etmiştir. Fransız âlimlerinden <lb/>Antoine
+                  Parmentier bir takım neşriyat ile <lb/>bu hurafelerin önüne geçmiş (1770 - 89) da
+                  <lb/>Fransada ziraatini ve istihlâkini tamim et- <lb/>miştir. Hattâ Fransız Kralı
+                  On altıncı Louis <lb/>nebatın rağbetini temin ve halk arasında ya- <lb/>yılmasını
+                  teşvik maksadile düğmesinde pa- <lb/>tates çiçeği taşıyordu. Rusyada Büyük Petro
+                  <lb/>da patatesin pehlivanlığını yapmıştır.</p>
+
+               <p>Patates yumrusunun aşağı yukarı 3/4 ü <lb/>sudur. Mütebakisi nişastadır. Biraz da
+                  azot- <lb/>lu maddeler ve yağ vardır. Azotlu maddeler <lb/>kabuğa yakın tabakada
+                  bulunur, kabuk de- <lb/>rin soyulduğu vakit gider. Patatesin kıymeti <lb/>maiyet
+                  karbonlu bir gıda teşkil etmiş olduğu <lb/>içindir. Zira patatesin nişasta
+                  tanelerini ih-</p>
+               <p>3670</p>
+               <pb n="3671" facs="#Page3671"/>
+               <cb n="1"/>
+               <p>tiva eden hüeceyreleri çatlar ve taneler için- <lb/>de buluttun nişasta kolay
+                  hazmedilir bir şe- <lb/>kilde bulunur. Patates nişastası veya patates <lb/>unu bir
+                  takım sınai ameliyelere tâbi tutula- <lb/>rak İstihsal edilir. Suyu alınmış
+                  patates pi- <lb/>rinçten daha fazla nişasta ihtiva eder. Av- <lb/>rupada, bilhassa
+                  Almanyada patatesin bir ne- <lb/>vinden yakmağa mahsus fena alkol İstihsal
+                  <lb/>olunur ve alkol gazolin yerine kullanılır.</p>
+               <div>
+                  <head>ÇOK MİKTARDA PATATES YETİŞTİREN MEMLEKETLERDE</head>
+                  <figure>
+                     <graphic
+                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img3.jpg"/>
+                     <p>Burada çiçek açmış bir patates tarlası göze çarpmaktadır. Patates ziraatına
+                        tahsis edilen tarla toprak <lb/>altı aktarilmaksızin pulluk ile mümkün
+                        olduğu kadar derin bir surette sürülür. Patates gözleri (tohumları)
+                        <lb/>evelâ hazırlanan çukur izler içine beygir ile tarla timar edilebilmek
+                        için birbirinden oldukça aralıklı <lb/>olarak ekilir. İzler de oldukça
+                        aralıklıdır. Nebat çıkmadan tarla üzerinden bir kaç defa sürgü geçirilir ve
+                        <lb/>büyüyen nebat etrafına gölge vermeden dip doldurulur.</p>
+                  </figure>
+               </div>
+               <div>
+                  <p>Beyaz patates (Solanum tuberosum) pat- <lb/>lıcan fasilesinin başlıca
+                     mümessilidir. Bu <lb/>fasilede tütün, güzel avrat otu (belladonna) <lb/>gibi
+                     zehirli ve domates, patlican, biber gibi <lb/>mugaddi nebatlar da bulunur.
+                     Zehirli madde <lb/>patatesin tohumu ve yaprakları içindedir. <lb/>Güneşe maruz
+                     bulundurulacak olursa yumru- <lb/>larda da teşekkül edebilir. Bu takdirde yum-
+                     <lb/>rular yeşil bir renk alır ve körpe sürgünler <lb/>salıverir. Yumrular
+                     toprak altındaki bir sâk- <lb/>tır. Nebat gıdasını burada biriktirir.</p>
+
+                  <p>Küçük beyaz veya kırmızı çiçekleri ba-</p>
+                  <cb n="2"/>
+                  <p>zan köpek üzümü gibi İçerisi çekirdekle dolu <lb/>küçük yeşil meyvalar verir
+                     (İneb). Fakat zi- <lb/>rai patates yabani patatesten daha az to- <lb/>hum
+                     verir. Patates tohumdan çoğaltılmaz, <lb/>çelik İle teksir edilir. Patates
+                     yumrusunun her <lb/>gözünde bir tomurcuk vardır. Kesilip topra- <lb/>ğa
+                     atılınca patates kök salar ve yeni bir ne- <lb/>bat husule getirir. Yeni
+                     patates tenevvüleri <lb/>elde etmek için bazan çiftçiler tohumdan pa-</p>
+                  <p>tâtes üretirler. Amerika ihtilâli zamanında <lb/>bir kırmızı bir de beyaz olmak
+                     üzere iki te- <lb/>nevvüü hâvi olan patates bugün bine yakın <lb/>tenevvülere
+                     maliktir. En iyi yumrular to- <lb/>humluk olarak ayrılır. Yukarıda söylediği-
+                     <lb/>miz gibi bir çok parçalar halinde kesilir, sa- <lb/>dece toprağa atılır ve
+                     üzeri örtülür. <lb/>Patates hububatın yetişemiyeceği soğuk <lb/>iklimlerde daha
+                     iyi yetişir. <lb/>Turfanda patatesler bize Akdenizin ce- <lb/>nup adalarından
+                     (Kıbrıs, Malta - ) ve şimalî <lb/>Afrikadan gelir. İstanbul patates
+                     ihtiyacını</p>
+
+                  <p>3671</p>
+                  <pb n="3672" facs="#Page3672"/>
+                  <cb n="1"/>
+                  <p>hemen hemen Adapazarı ve cıvarınden te- <lb/>min eder.</p>
+               </div>
+               <div type="entry" n="7">
+                  <head><hi rend="bold">PATRONA HALİL</hi></head>
+                  <p>— Osmanlı tarihinde <lb/>(Lâle devri) diye yer tutan şiir ve sanat dev-
+                     <lb/>rini kan ve ateş içinde kapayan korkunç is- <lb/>yanın elebaşısıdır. Bu
+                     adam Arnavuttu, bir <lb/>müddet harp gemilerinde levendlik yaptı.U- <lb/>fak
+                     tefek savaşlarda cür’et gösterdi ve le-</p>
+                  <figure>
+                     <graphic
+                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img4.jpg"/>
+                     <p>Patronanın tahttan attığı Ahmet III.</p>
+                  </figure>
+                  <p>vendlerinden bulunduğu geminin adına nis- <lb/>petle Patrona lâkabını aldı,
+                     ünlü bir kabada- <lb/>yı kesildi. <lb/>Levendlikten çekildikten sonra çarşıda
+                     <lb/>tellâllık yapıyordu, hamamlardaki Arnavut <lb/>tellâklarla ayak satıcısı
+                     hemşerilerile sıkı bir <lb/>münasebeti vardı ve onların üzerinde büyük <lb/>bir
+                     nüfuz sahibi idi. Üçüncü Sultanahmedle <lb/>damadı Nevşehirli İbrahim paşanın
+                     yaratıp <lb/>yaşttıkları lâle devri, bir çok sebeplerden do- </p>
+                  <cb n="2"/>
+                  <p>layı, İstanbul halkını hoşnutsuzluğa şevket <lb/>ti. İkbal hırsile çırpınan
+                     bazı kimselerin bir <lb/>fitne çıkarmıya teşebbüs ettikleri sırada <lb/>Patrona
+                     Halil ortaya atıldı, bulanık suda ba- <lb/>lık avlamak tecrübesine girişti.</p>
+
+                  <p>Lâle devrini ve o devrin hâliklarını de- <lb/>virmek istiyenlerin başında
+                     Ayasofya vaizi <lb/>İspiri zade ile eski İstanbul kadısı Arnavut <lb/>Zülâlî
+                     Hasan efendi vardı, bunlar alttan <lb/>alta propagnda yaparak halkı isyan
+                     fikrine <lb/>meylettirdikten sonra Patrona Halil! kışkırt- <lb/>tılar, meydana
+                     bıraktılar.</p>
+
+                  <p>Patrona - Manav Muslu, Kahveci AL <lb/>gibi gözleri pek, bilekleri sert bir iki
+                     arkadaş <lb/>da buldu - 1730 yılının sonbahar günlerin- <lb/>den birinde
+                     tellâklardan, ciğercilerden, hel- <lb/>vacılardan bir kaç yüz kişi ile isyan
+                     bayrağı- <lb/>nı kaldırdı, bir iki saat içinde bütün İstan- <lb/>bulu bu bayrak
+                     altına toplamıya muvaffak <lb/>oldu.</p>
+
+                  <p>Bütün isyanlarda olduğu gibi Patrona da <lb/>At meydanım merkez ittihaz etmiş,
+                     orada- <lb/>ki Yeniçeri ortalarile müzakereye girişmişti. <lb/>Yeniçeri ağası,
+                     hayli bir tereddütten sonra <lb/>meydana geldi, kalabalığı dağıtmak istedi.
+                     <lb/>Patrona Halil, adi bir levend eskisi olduğu <lb/>halde, Osmanlı ordusunun
+                     bu en büyük âmi- <lb/>rine karşı yürüdü: <lb/>— Biz, dedi, zulmü kaldırmak,
+                     zalimleri <lb/>cezalandırmak istiyoruz. Sen de bizimle ol- <lb/>malısın.
+                     <lb/>Yeniçeri ağası, ayak takımından birinin <lb/>gösterdiği bu tecellüdden
+                     sinirlenip te bir ’ki <lb/>söz söylemek isteyince Patrona haykırdı: <lb/>— Sus
+                     kara yürekli herif, ağzını açma. <lb/>Yoksa zalimlerin sana giydirdiği şu
+                     kaftanı <lb/>kanınla kırmızıya boyarım, Muhammed üm- <lb/>metine bayrak
+                     yaparım.</p>
+
+                  <p>Patrona işte bu cür’etile Yeniçerileri, Si- <lb/>pahileri, Bahriyelileri,
+                     Topçuları da kazandı, <lb/>on binlerce kişilik bir isyan ordusunun ku-
+                     <lb/>mandanı mevkiine geçti, sarayı tazyika baş- <lb/>ladı, Sadrazamla
+                     damadını, kethüdasını öl- <lb/>dürdükten sonra Üçüncü Sultanahmedi de
+                     <lb/>tahttan indirdi, yerine Birinci Mahmudu pa- <lb/>dişah yaptı.</p>
+                  <p>3672</p>
+                  <pb n="3673" facs="#Page3673"/>
+                  <cb n="1"/>
+                  <p>Osmanlı İmparatorluğu artık onun elin- <lb/>de İdi, Babıâliye geldikçe Sadrazam
+                     kendisi- <lb/>ni merdivenin alt kapısından karşılıyordu. <lb/>Padişah ta onu
+                     hoş tutmak istiyordu. Hat- <lb/>tâ kendisine paşalık vermek arzusunda bu-
+                     <lb/>lundu, o kabul etmedi. Yeniçeri ağası, bir <lb/>kaç bin kese para
+                     verilmesini ileri sürdü. <lb/>Patrona, bu cemileye karşı da şu sözleri söy-
+                     <lb/>ledi:</p>
+
+                  <p>— İstanbulun bütün hâzineleri benim. <lb/>Hem bana bak Yeniçeri ağası. Beni
+                     parayla, <lb/>pulla avlamıya çalışma, pişman olursun!</p>
+
+                  <p>Bununla beraber bir müddet sonra vezir <lb/>olmayı hoş gördü. Zaten
+                     arkadaşlarından <lb/>Saraç Mehmed Yeniçeri ağası, Urluyu Sek- <lb/>banbaşı,
+                     Deli Mustafayı Kapı kâhyası, Deli <lb/>İbrahim! İstanbul Kadısı yapmıştı. Şimdi
+                     <lb/>kendisi de paşa olup fani dünyada tantanalı <lb/>bir kaç gün geçirmek
+                     hevesine kapılmıştı. <lb/>Şimdi o, belinde pala, kubbe altına giriyor- <lb/>du,
+                     imparatorluğun siyaseti hakkında müta- <lb/>lealar yürütüyordu. Bu gidiş
+                     gelişlerde Yeni- <lb/>çeriler tarafından selâmlanıyordu, bazan <lb/>Kızlar
+                     ağası vasıtasile Valde Sultanla da gö- <lb/>rüşüyordu.</p>
+
+                  <p>Birinci Mahmud, belki uzun müddet bu <lb/>vaziyete tahammül edecekti. Lâkin
+                     Kızlar <lb/>ağası Beşir ile Kırım Hanının ihtarı üzerine <lb/>Patronaya bir
+                     oyun oynanılmasını kabul et- <lb/>ti, lâzım gelen tertibatın alınmasına izin
+                     <lb/>verdi. Patronanın kurulan dolaptan hiç ha- <lb/>beri yoktu. Sadrazamla
+                     Şeyhislâmın, Kızlar <lb/>ağasının azille yerlerine kendinin daha ziya- <lb/>de
+                     itimadını kazanan kimselerin getirilme- <lb/>sini istemeği tasarlıyordu.
+                     Nihayet Rusyaya <lb/>karşı bazı askerî tedbirler alınmak icap etti- <lb/>ği
+                     bahanesile sarayda bir meclis kuruldu, <lb/>Patrona da oraya çağırıldı.
+                     Levendlikten siv- <lb/>rilme elebaşı, yine palasile bu meclise geldi, <lb/>söze
+                     başlanır başlanmaz atıldı, büyük bir or- <lb/>du ile hemen Rusya üzerine
+                     yürünülmesi <lb/>fikrinde bulundu. Kırım Hanı «Nasıl yürü- <lb/>meli» diyince
+                     de «babalarımızın yürüdüğü <lb/>gibi» cevabını verdi.</p>
+
+                  <p>Patrona o gün pek kalabalık bir maiye- <lb/>tile saraya gelmişti, bu yüzden
+                     kurulan plân</p>
+                  <cb n="2"/>
+                  <p>geriye bırakıldı. İkinci bir toplanışta hıl’at <lb/>giydirmek bahanesile
+                     kendisi Revan köşkü- <lb/>ne götürüldü, orada üzerine hücum edildi.
+                     <lb/>Patrona palaya davranmak isterken bir kılıç <lb/>darbesile kolu düşürüldü
+                     ve arkasından yere <lb/>atılarak işi bitirildi.</p>
+
+                  <p>Bu köşkte Patronanın hayatına nihayet <lb/>verilirken dışarıda da arkadaşı
+                     Muslunun ve <lb/>kendilerile birlikte saraya gelen zorbaların <lb/>kelleleri
+                     uçuruluyordu. Birden yapılan bu</p>
+
+                  <figure>
+                     <graphic
+                        url="https://github.com/NurcanB/Nurcan-s-DCHM-Project-Hayat-Ansiklopedisi/blob/main/docs/assets/img/Img5.jpg"/>
+                     <p>Patronanın öldürttüğü Sadrazam İbrahim Paşa</p>
+                  </figure>
+
+                  <p>kanlı ceza, haftalardanberi İstanbulun öte- <lb/>sinde berisinde bin bir türlü
+                     rezalet yapmak- <lb/>ta olan Patrona isyan ordusunu darmaadğın <lb/>etmeğe kâfi
+                     gelmişti.</p>
+
+                  <p>Patrona, Osmanlı tarihinde yenilik fikri- <lb/>ni boğanlardan biridir. Onun
+                     çıkardığı isyan <lb/>yenilik cereyanını öldürmüş, memleketi bir <lb/>asır daha
+                     geriye atmıştır. O. henüz kurulan <lb/>matbaacılığı da yıkmıştır. — M. S.</p>
+                  <!-- How to markup this? -->
+                  <p>3673</p>
+                  <p>226</p>
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="BackFrontSide" facs="#BackFrontSide">
+            <figure>
+               <figDesc>A black and white illustration of a couple of children reading
+                  books</figDesc>
+            </figure>
+            <p><hi rend="bold">CUMHURIYET ÇOCUĞUNUN KİTAPLARI</hi></p>
+            <div>
+               <head>Romanlar, Hikâyeler Masallar...</head>
+               <p>Şimdiye kadar çocuklarımızın seviyesi, ihtiyacı ve zevki düşünülerek <lb/>muntazam
+                  bir kitap serisi vücude getirilmemiştir. Cumhuriyet gazetesi bu <lb/>eksiği
+                  doldurmak için hazırlıklara haşlamış ve şimdilik üç kitap yapmış- <lb/>tır.
+                  Bunlardan biri:</p>
+               <p rend="center">AMERİKADA BİR TÜRK ÇOCUĞU</p>
+               <p>İsminde resimli bir Romandır. On bir yaşında bir Türk çocuğunun bu- <lb/>radan
+                  tekbaşına Amerikaya giderek karşılaştığı felâketlerle döğüşmesinı <lb/>hikâye eden
+                  bu roman, çocuğun elinden bırakamıyacağı kadar meraklı <lb/>bilgiler veren, enerji
+                  telkin eden bir eserdir. Yaldızlı, renkli cilt içinde çok <lb/>temiz basılmıştır.
+                  Renkli tablolar, birçok canlı resimler vardır.</p>
+               <p rend="center">Fiyatı 150 kuruştur.</p>
+               <p rend="left">İkincisi:</p>
+               <p>«Küçüklere hikâyeler» isminde sevimli ve faydalı otuz kadar hikâye- <lb/>den
+                  mürekkep renkli kapağı ve birçok cazip resimleri vardır. Sekiz ya- <lb/>şından on
+                  dört yaşma kadar bütün çocuklara göre yazılmıştır. Dilleri ve <lb/>üslûpları gayet
+                  sadedir. Her evde vücude getirilmesi şart olan çocuk kü- <lb/>tüphaneleri için
+                  çocuklara bu eserlerden daha sevimli, daha faydalı he- <lb/>diye bulmak mümkün
+                  değildir. Fiyatı yetmiş beş kuruştur. Matbaamıza <lb/>hemen müracaat ediniz.</p>
+            </div>
+         </div>
+         <div type="BackPage" facs="#BackPage">
+            <p><emph>Cüzlerimizi Ciltletiniz!</emph></p>
+            <div>
+               <head>Yedinci Cilt</head>
+               <p>Yetmişinci ciizde yedinci cilt tamam ol- <lb/>muştur. Cüzlerinizi ciltletiniz.
+                  Müessesemiz <lb/>sureti mahsusada nefis ciltler hazırlamış ve <lb/>ayrıca
+                  Avrupadan açılır kapanır modeller ge- <lb/>tirtmiştir.</p>
+               <p>Abonelerimizin cüzlerinin her cildi 75 ve <lb/>okuyucularımızın her cildi 100
+                  kuruşa matba- <lb/>amızda yapılıp teslim olunur. Mukavva kutu <lb/>içinde
+                  taahhütlü olarak postaya verilecek cilt- <lb/>ler için ayrıca 25 kuruş alınır.</p>
+               <p>On cilde birden abone olmayı taahhüt e <lb/>denler her ay 325 kuruş göndermek
+                  suretile <lb/>on taksitte bu büyük eseri tamamen alabilir- <lb/>ler. Bu surette
+                  kendilerine her ay taksiti <lb/>gönderdikçe bir cilt verilir.</p>
+               <p>Ankaradaki okuyucularımız Akba kitap <lb/>satış evine müracaat etmelidir. Her
+                  cildin fi- <lb/>atı ayrı ayrı 350 kuruştur, fakat sekizinci cil- <lb/>de abone
+                  olanlara ondan evvelki yedi cilt dahi <lb/>matbaamızda 300 kuruşa verilir.</p>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

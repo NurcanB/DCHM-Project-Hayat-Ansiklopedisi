@@ -1,2 +1,2 @@
 # DCHM Project Hayat Ansiklopedisi
- 
+ This is a digitization project carried out as part of the Digitizing Cultural Heritage Materials (DCHM) course at the University of Borås in 2023, with the goal of publishing a collection of pages from a Turkish periodical encyclopedia online, utilizing GitHub Pages as the platform.
