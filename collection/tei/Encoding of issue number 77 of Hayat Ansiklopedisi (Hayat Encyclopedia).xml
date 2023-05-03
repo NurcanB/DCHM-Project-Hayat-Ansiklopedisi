@@ -345,6 +345,7 @@
                <p>3667</p>
                <pb n="3668" facs="#Page3668"/>
                <figure>
+                  <figDesc> A picture of Pasteur Louis in a laboratary</figDesc>
                   <graphic
                      url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img1.jpg"/>
                   <p>Pasteur lâboratuvarında: bakteriyayı keşfetmekle <lb/>dünyaya benzersiz hizmeti
@@ -425,6 +426,7 @@
                <cb n="1"/>
                <p>MAKİNA İLE PATATES HASADI</p>
                <figure>
+                  <figDesc> A picture of a potato harvesting machine</figDesc>
                   <graphic
                      url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img2.jpg"/>
                   <p>Bu âlet nebatın bütün toprak altındaki kısmını <lb/>satha çıkarır ve patates
@@ -485,6 +487,7 @@
                <div>
                   <head>ÇOK MİKTARDA PATATES YETİŞTİREN MEMLEKETLERDE</head>
                   <figure>
+                     <figDesc> A picture of a potato field</figDesc>
                      <graphic
                         url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img3.jpg"/>
                      <p>Burada çiçek açmış bir patates tarlası göze çarpmaktadır. Patates ziraatına
@@ -534,6 +537,7 @@
                      adam Arnavuttu, bir <lb/>müddet harp gemilerinde levendlik yaptı.U- <lb/>fak
                      tefek savaşlarda cür’et gösterdi ve le-</p>
                   <figure>
+                     <figDesc> A picture of an Ottoman Sultan, Ahmet III</figDesc>
                      <graphic
                         url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img4.jpg"/>
                      <p>Patronanın tahttan attığı Ahmet III.</p>
@@ -626,6 +630,7 @@
                      uçuruluyordu. Birden yapılan bu</p>
 
                   <figure>
+                     <figDesc> A picture of a grand vizier called Ibrahim Pasha</figDesc>
                      <graphic
                         url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img5.jpg"/>
                      <p>Patronanın öldürttüğü Sadrazam İbrahim Paşa</p>
