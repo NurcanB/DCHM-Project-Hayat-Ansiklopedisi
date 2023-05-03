@@ -6,11 +6,15 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title>Encoding of issue number 77 of Hayat Ansiklopedisi (Hayat Encyclopedia)</title>
+            <title>Encoding of issue/fascicle number 77 of Hayat Ansiklopedisi (Hayat
+               Encyclopedia)</title>
             <author>
-               <persName>Faik Sabri Duran</persName>
-               <persName>Mehmet Samih Fethi</persName>
-               <persName>Salih Duran</persName>
+               <persName>F.Sabri Duran</persName>
+               <persName>M.Samih (M.Turhan Tan)</persName>
+               <persName>S.Murat Uzdilek</persName>
+               <persName>M.Zekeriya Sertel</persName>
+               <persName>H.Sadi Selen</persName>
+               <persName>K.Nami Duru</persName>
             </author>
             <respStmt>
                <name>Nurcan Bektas Hay</name>
@@ -46,12 +50,16 @@
                <monogr>
                   <title>Hayat Ansiklopedisi</title>
                   <author>
-                     <persName>Faik Sabri Duran</persName>
-                     <persName>Mehmet Samih Fethi</persName>
-                     <persName>Salih Duran</persName>
+                     <persName>F.Sabri Duran</persName>
+                     <persName>M.Samih (M.Turhan Tan)</persName>
+                     <persName>S.Murat Uzdilek</persName>
+                     <persName>M.Zekeriya Sertel</persName>
+                     <persName>H.Sadi Selen</persName>
+                     <persName>K.Nami Duru</persName>
                   </author>
                   <imprint>
-                     <publisher>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet müesseseleri</publisher>
+                     <publisher>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet
+                        müesseseleri</publisher>
                      <pubPlace>Istanbul</pubPlace>
                      <date from="1932" to="1936">1932-1936</date>
                      <biblScope unit="issue">77</biblScope>
@@ -64,8 +72,9 @@
          <projectDesc>
             <p>This TEI encoding has been performed as part of a digitisation project in the
                Digitising Cultural Heritage Materials course at the University of Borås.</p>
-            <p>For this project, ten pages (plus cover and back pages) of the issue number 77 of the periodical encyclopedia
-               "Hayat Ansiklopedisi" have been selected to digitize.</p>
+            <p>For this project, twelve pages (including cover and back pages) of the issue number
+               77 of the periodical encyclopedia "Hayat Ansiklopedisi" have been selected to
+               digitize.</p>
          </projectDesc>
       </encodingDesc>
    </teiHeader>
@@ -91,7 +100,7 @@
       <surface xml:id="Page3666">
          <figure>
             <label>Page3666</label>
-            <figDesc>First page with entries </figDesc>
+            <figDesc>First page with entries</figDesc>
             <graphic
                url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Page3666.jpeg"
             />
@@ -182,27 +191,22 @@
    <text xml:lang="tr">
       <front>
          <div type="cover" facs="#Cover">
-            <p>Hayat Ansiklopedisi</p>
-            <p>77</p>
-            <p>KURUS 25</p>
-            <p>Nesreden: <lb/>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet müesseseleri</p>
+            <p>Hayat <lb/> Ansiklopedisi</p>
+            <p rend="left">77</p>
+            <p rend="right">KURUŞ 25</p>
+            <figure>
+               <graphic
+                  url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img7.jpg"/>
+               <figDesc>An image of parrots on a bench</figDesc>
+            </figure>
+            <p rend="center">Muhtelif Papağan tipleri</p>
+            <p rend="center">Neşreden: <lb/>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet
+               müesseseleri</p>
             <p>ON BEŞ GÜNDE BİR CÜZ NEŞROLUNUR</p>
+            
          </div>
-         <titlePage>
-            <docTitle>
-               <titlePart type="main" rend="bold">Hayat Ansiklopedisi</titlePart>
-            </docTitle>
-            <docImprint>
-               <publisher>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet müesseseleri</publisher>
-            </docImprint>
-         </titlePage>
-         <figure>
-            <graphic
-               url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img7.jpg"/>
-            <figDesc>An image of parrots on a bench</figDesc>
-         </figure>
          <div type="coverbackside" facs="#CoverBackside">
-            <p>1935<lb/>Cumhuriyet<lb/>Almanağı<lb/>Her evde ve her elde <lb/>bulunması lazım gelen
+            <p>1935<lb/>CUMHURİYET<lb/>Almanağı<lb/>Her evde ve her elde <lb/>bulunması lazım gelen
                <lb/>küçük bir ansiklopedidir.<lb/>Mutlaka bir tane alınız.<lb/>Fiatı 100 kuruş</p>
          </div>
       </front>
@@ -217,9 +221,9 @@
                   Bu demir oksidi<lb/>toprakla karışarak toprağa kahve rengi ve- <lb/>ya
                   kırmızımtırak renk verir. Suda inhilâl<lb/>eden pas nebatlar tarafından
                   kullanılır. Su <lb/>ve nebat vasıtasile aldığımız demir pası ka-<lb/>nımıza
-                  kırmızı rengi verir. Ruskin demri hak- <lb/>kında diyor ki:<quote>Demir hava ile
-                     teneffüs<lb/>eder, oksigenle yanar ve hayatını bize verir <lb/>ve biz de onunla
-                     yaşarız</quote>.</p>
+                  kırmızı rengi verir. Ruskin demri hak- <lb/>kında diyor ki: Demir hava ile
+                  teneffüs<lb/>eder, oksigenle yanar ve hayatını bize verir <lb/>ve biz de onunla
+                  yaşarız.</p>
                <p>Dövme demir, dökme demir ve çelik su<lb/>veya ratip havaya maruz kalınca paslanır.
                   <lb/>Bir yağmur damlası temiz parlak demir sat-<lb/>hına düştükten kısa bir müddet
                   sonra demi- <lb/>rin parlak sathı yeşilimtırak bir renk alır.<lb/>Bu madde de
@@ -241,11 +245,11 @@
                <head><hi rend="bold">PASAROFCA MUAHEDESI</hi></head>
                <p>Osmanlı <lb/>tarihinde mühim yer alan siyasi vesikalar- <lb/>dandır, Avusturya ve
                   Venedikle yapılmıştır. <lb/>Muahedeye takaddüm eden harp, Avustur- <lb/>yanın
-                  OsmanlI ülkesine göz dikmesinden ve <lb/>bu ülkeyi parça parça ele geçirmek
+                  Osmanlı ülkesine göz dikmesinden ve <lb/>bu ülkeyi parça parça ele geçirmek
                   isteme- <lb/>sinden doğmuştur. Osmanlılar (1711) de yap- <lb/>tıkları Prut
                   muahedesile (bu kelimeye bakı- <lb/>nız) Rusyayı tanımışlardı, yıllardanberi Mo-
                   <lb/>ra eyaletini istilâ etmiş olan Venediklileri o- <lb/>radan çıkarmak için
-                  haklı bir harbe giriş- <lb/>mişlerdi. Avusturya, bunu first saydı, sudan
+                  haklı bir harbe giriş- <lb/>mişlerdi. Avusturya, bunu fırst saydı, sudan
                   <lb/>bahanelerle Osmanlılar aleyhine harp açtı <lb/>(1716). Osmanlı ordusu
                   yorgundu, buna rağ- <lb/>men taarruza geçti, (Petrovaradin) de Avus- <lb/>turya
                   ordusile karşılaştı, Serdar Ali paşa al- <lb/>nından vurularak öldüğünden harbi
@@ -257,7 +261,7 @@
 
                <p>Prens Eugéne, Venedik hükümetinin de <lb/>bu müzakereye girmesini istediğinden o
                   hü- <lb/>kümetin murahhasları Pasarofca muahede- <lb/>sine imza koymuşlar ve
-                  OsmanlIlarla sulh <lb/>yapmışlardır.</p>
+                  Osmanlılarla sulh <lb/>yapmışlardır.</p>
 
                <p>Muahede mucibince Venedik Moradan <lb/>el çekiyordu, fakat Dalmaçya ile Arnavut-
                   <lb/>lukta ve Hersek kıt’asinda Türklerden aldı- <lb/>ğı yerleri muhafaza
@@ -270,13 +274,13 @@
                <p>3666</p>
                <pb n="3667" facs="#Page3667"/>
                <cb n="1"/>
-               <p>ul idi. Osmanlı hükümeti o sırada Avustur- <lb/>yaya hücum etmiş alsaydı büyük
+               <p>gul idi. Osmanlı hükümeti o sırada Avustur- <lb/>yaya hücum etmiş alsaydı büyük
                   kazançlar <lb/>temin edebilirdi. Babıâli «mertlik» fikrine <lb/>bağlı kalarak bu
-                  fırsatı kaçırdı ve Avustur- <lb/>yanin hücumuna uğradı.</p>
+                  fırsatı kaçırdı ve Avustur- <lb/>yanın hücumuna uğradı.</p>
 
                <p>Pasarofca muahedesi, Osmanlı devleti- <lb/>nin artık Avrupayı titretecek kuvetten
                   tama- <lb/>mile uzak kaldığını ispat eden bir vesikadır. <lb/>Ayni vesika
-                  Avrupanin alt ve yan kısmında- <lb/>ki coğrafî vaziyetinin, tarihî istikametlerin
+                  Avrupanın alt ve yan kısmında- <lb/>ki coğrafî vaziyetinin, tarihî istikametlerin
                   <lb/>de değiştiğini gösterir. Lehistanla Venedik <lb/>batıyordu. Buna karşı
                   Osmanlı imparatorlu- <lb/>ğunu iki yeni ve kuvetli düşman çevirmeğe
                   <lb/>başlıyordu. Bunlardan biri Macaristanı, T- <lb/>ranslıvanyayı Osmanlılardan
@@ -287,11 +291,10 @@
 
                <p>Pasarofcanın açtığı yara, Osmanlılar ta- <lb/>rafından hiç bir suretle
                   kapatılamamıştır. <lb/>Ve bu yaradan başka yaralar da doğmuş- <lb/>tur. —M. S.</p>
-               <!-- How to markup this? -->
             </div>
             <div type="entry" n="3">
                <head><hi rend="bold">PASİNLER.</hi></head>
-               <p>— Erzurum vilâyetine bağlı <lb/>kazalardan biridir. Kazanın merkezi Hasan-
+               <p>—Erzurum vilâyetine bağlı <lb/>kazalardan biridir. Kazanın merkezi Hasan-
                   <lb/>kale kasabasıdır. Erzurumu şarka açan Ka- <lb/>leçayı vadisinin üzerinde ve
                   dar bir yerinde <lb/>kurulmuş bulunduğu için mevkice ehemmi- <lb/>yeti vardır.</p>
 
@@ -307,7 +310,6 @@
                   <lb/>raştığı sanayi halı, kilim, şal, keçe gibi do- <lb/>kuma sanayiidir.
                   Arazisinin genişliği 4,545 <lb/>Km.2, nüfusu 34,567; vasati kesafeti 7,6, mev-
                   <lb/>kilerinin sayısı 225 tir. — A. S.</p>
-               <!-- How to markup this? -->
             </div>
             <div type="entry" n="4">
                <head><hi rend="bold">PASTEUR, LOUİS (1822-1895)</hi></head>
@@ -326,7 +328,7 @@
                   kurtarılabil- <lb/>mesi imkân dahilinde olduğunu söylemişti. <lb/>Bu mikrop bundan
                   beş sene evel Alman Kock <lb/>tarafından keşfedilmişti. Pasteur hastalığın
                   <lb/>zayıf bulunan mikroplarını hayvan kanına <lb/>aışlamakla hayvanların antrakse
-                  kraşı mua- <lb/>fiyet kazanacaklarını bulmuştu. Bu iddiası- <lb/>nı saçma 'bulan
+                  kraşı mua- <lb/>fiyet kazanacaklarını bulmuştu. Bu iddiası- <lb/>nı saçma bulan
                   baytarlar Pasteure «İsbat et» <lb/>diyorlardı. Bu teklifi kabul eden Pasteur elli
                   <lb/>koyundan 25 ini aşıladı ve 25 ini de normal <lb/>halde bıraktı. Bir kaç gün
                   sonra bu elli ko- <lb/>yuna kuvetli ve canlı antraks mikropları şı- <lb/>rınga
@@ -338,7 +340,7 @@
                   <lb/>leon ile Viktor Hugonun önüne geçirdiler.</p>
 
                <p>Pasteur usulünü ileri götürerek korkunç <lb/>kuduz hastalığına da çare buldu.
-                  Havvanları <lb/>kuduz mikroplarına karşı muaf kılmağa mu- <lb/>vaffak oldu. Bundan
+                  Hayvanları <lb/>kuduz mikroplarına karşı muaf kılmağa mu- <lb/>vaffak oldu. Bundan
                   sonra da kuduz köpek <lb/>tarafından ısırılmış olan bir çocuğun haya-</p>
                <p>3667</p>
                <pb n="3668" facs="#Page3668"/>
@@ -362,7 +364,7 @@
                   <lb/>leri tazminatı geçtiğini söylüyor.</p>
 
                <p>Pasteur bir debağın oğlu olup Volede doğ- <lb/>muştur. Uzun mücadeleden sonra
-                  Haristeki <lb/>École Normalee girmeğe muvaffak olmuştur. <lb/>Dünyanın en büyük
+                  Paristeki <lb/>École Normalee girmeğe muvaffak olmuştur. <lb/>Dünyanın en büyük
                   kimyagerlerinden biri <lb/>olan Pasteurün mektep şahadetnamesindeki <lb/>kimya
                   numarası «fena» idi. O daima çalış- <lb/>mağı severdi ve yarı yapılan işlere
                   kanmaz- <lb/>dı. 1868 de Sorbonne kimya profesörlüğüne <lb/>seçildi ve 1888 de
@@ -403,7 +405,7 @@
                <p>— Cortez ve Pizarro <lb/>altın ve gümüş için Meksikayı ve Peruyu
                   <lb/>zaptettikleri vakit yerlilerin yediğimiz pata- <lb/>tesin ceddi olan yumru
                   köklü nebatı yetiş- <lb/>tidiklerini ve yediklerini görmüşlerdir. Bu <lb/>kâşifler
-                  bu patateslerden bir miktarını is- <lb/>panyaya götürdüler. Avrupaya yeni nebat
+                  bu patateslerden bir miktarını İs- <lb/>panyaya götürdüler. Avrupaya yeni nebat
                   <lb/>getirildiği haberi İtalya, Hollanda ve diğer <lb/>memleketlere yayıldı. Cesur
                   İngiliz gemicisi <lb/>John Hawkins ilk patates nümunesini 1563 <lb/>tarihinde
                   Cenubî Amerikadan İngiltereye ge- <lb/>tirdi. 20 sene sonra Sir Walter Raleigh
@@ -421,8 +423,7 @@
                <p>3669</p>
                <pb n="3670" facs="#Page3670"/>
                <cb n="1"/>
-               <p>MAKINA İLE PATATES HASADI</p>
-               <!-- How to markup this? -->
+               <p>MAKİNA İLE PATATES HASADI</p>
                <figure>
                   <graphic
                      url="/Users/nube1000/Documents/GitHub/DCHM-Project-Hayat-Ansiklopedisi/docs/assets/img/Img2.jpg"/>
@@ -452,7 +453,7 @@
                   Rus- <lb/>ya büyük mikyasta patates istihsal ve istih- <lb/>lâk eden
                   memleketlerdendir.</p>
 
-               <p>Patates ziraat! Avrupa tarihinde mühim <lb/>rol oynamıştır. Otuz sene muharebesi
+               <p>Patates ziraati Avrupa tarihinde mühim <lb/>rol oynamıştır. Otuz sene muharebesi
                   esna- <lb/>sındaki kıtlık müzayikasını patates tahfif <lb/>etmiştir. 1688
                   tarihlerinde patates İrlanda- <lb/>nin başlıca gıdası yerine geçmiştir. 1845 ta-
                   <lb/>rihinde patates mahsulünde vukua gelen ade- <lb/>mi muvaffakiyet
@@ -475,11 +476,11 @@
                <p>3670</p>
                <pb n="3671" facs="#Page3671"/>
                <cb n="1"/>
-               <p>tiva eden hüeceyreleri çatlar ve taneler için- <lb/>de buluttun nişasta kolay
+               <p>tiva eden hüceyreleri çatlar ve taneler için- <lb/>de buluttun nişasta kolay
                   hazmedilir bir şe- <lb/>kilde bulunur. Patates nişastası veya patates <lb/>unu bir
                   takım sınai ameliyelere tâbi tutula- <lb/>rak İstihsal edilir. Suyu alınmış
                   patates pi- <lb/>rinçten daha fazla nişasta ihtiva eder. Av- <lb/>rupada, bilhassa
-                  Almanyada patatesin bir ne- <lb/>vinden yakmağa mahsus fena alkol İstihsal
+                  Almanyada patatesin bir ne- <lb/>vinden yakmağa mahsus fena alkol istihsal
                   <lb/>olunur ve alkol gazolin yerine kullanılır.</p>
                <div>
                   <head>ÇOK MİKTARDA PATATES YETİŞTİREN MEMLEKETLERDE</head>
@@ -554,20 +555,20 @@
                      fikrine <lb/>meylettirdikten sonra Patrona Halil! kışkırt- <lb/>tılar, meydana
                      bıraktılar.</p>
 
-                  <p>Patrona - Manav Muslu, Kahveci AL <lb/>gibi gözleri pek, bilekleri sert bir iki
-                     arkadaş <lb/>da buldu - 1730 yılının sonbahar günlerin- <lb/>den birinde
+                  <p>Patrona - Manav Muslu, Kahveci Ali <lb/>gibi gözleri pek, bilekleri sert bir
+                     iki arkadaş <lb/>da buldu - 1730 yılının sonbahar günlerin- <lb/>den birinde
                      tellâklardan, ciğercilerden, hel- <lb/>vacılardan bir kaç yüz kişi ile isyan
                      bayrağı- <lb/>nı kaldırdı, bir iki saat içinde bütün İstan- <lb/>bulu bu bayrak
                      altına toplamıya muvaffak <lb/>oldu.</p>
 
-                  <p>Bütün isyanlarda olduğu gibi Patrona da <lb/>At meydanım merkez ittihaz etmiş,
+                  <p>Bütün isyanlarda olduğu gibi Patrona da <lb/>At meydanını merkez ittihaz etmiş,
                      orada- <lb/>ki Yeniçeri ortalarile müzakereye girişmişti. <lb/>Yeniçeri ağası,
                      hayli bir tereddütten sonra <lb/>meydana geldi, kalabalığı dağıtmak istedi.
                      <lb/>Patrona Halil, adi bir levend eskisi olduğu <lb/>halde, Osmanlı ordusunun
                      bu en büyük âmi- <lb/>rine karşı yürüdü: <lb/>— Biz, dedi, zulmü kaldırmak,
                      zalimleri <lb/>cezalandırmak istiyoruz. Sen de bizimle ol- <lb/>malısın.
                      <lb/>Yeniçeri ağası, ayak takımından birinin <lb/>gösterdiği bu tecellüdden
-                     sinirlenip te bir ’ki <lb/>söz söylemek isteyince Patrona haykırdı: <lb/>— Sus
+                     sinirlenip te bir iki <lb/>söz söylemek isteyince Patrona haykırdı: <lb/>— Sus
                      kara yürekli herif, ağzını açma. <lb/>Yoksa zalimlerin sana giydirdiği şu
                      kaftanı <lb/>kanınla kırmızıya boyarım, Muhammed üm- <lb/>metine bayrak
                      yaparım.</p>
@@ -580,14 +581,14 @@
                   <p>3672</p>
                   <pb n="3673" facs="#Page3673"/>
                   <cb n="1"/>
-                  <p>Osmanlı İmparatorluğu artık onun elin- <lb/>de İdi, Babıâliye geldikçe Sadrazam
+                  <p>Osmanlı İmparatorluğu artık onun elin- <lb/>de idi, Babıâliye geldikçe Sadrazam
                      kendisi- <lb/>ni merdivenin alt kapısından karşılıyordu. <lb/>Padişah ta onu
                      hoş tutmak istiyordu. Hat- <lb/>tâ kendisine paşalık vermek arzusunda bu-
                      <lb/>lundu, o kabul etmedi. Yeniçeri ağası, bir <lb/>kaç bin kese para
                      verilmesini ileri sürdü. <lb/>Patrona, bu cemileye karşı da şu sözleri söy-
                      <lb/>ledi:</p>
 
-                  <p>— İstanbulun bütün hâzineleri benim. <lb/>Hem bana bak Yeniçeri ağası. Beni
+                  <p>—İstanbulun bütün hâzineleri benim. <lb/>Hem bana bak Yeniçeri ağası. Beni
                      parayla, <lb/>pulla avlamıya çalışma, pişman olursun!</p>
 
                   <p>Bununla beraber bir müddet sonra vezir <lb/>olmayı hoş gördü. Zaten
@@ -637,7 +638,6 @@
                   <p>Patrona, Osmanlı tarihinde yenilik fikri- <lb/>ni boğanlardan biridir. Onun
                      çıkardığı isyan <lb/>yenilik cereyanını öldürmüş, memleketi bir <lb/>asır daha
                      geriye atmıştır. O. henüz kurulan <lb/>matbaacılığı da yıkmıştır. — M. S.</p>
-                  <!-- How to markup this? -->
                   <p>3673</p>
                   <p>226</p>
                </div>
@@ -674,10 +674,10 @@
             </div>
          </div>
          <div type="BackPage" facs="#BackPage">
-            <p><emph>Cüzlerimizi Ciltletiniz!</emph></p>
+            <p><emph>Cüzlerinizi Ciltletiniz!</emph></p>
             <div>
                <head>Yedinci Cilt</head>
-               <p>Yetmişinci ciizde yedinci cilt tamam ol- <lb/>muştur. Cüzlerinizi ciltletiniz.
+               <p>Yetmişinci cüzde yedinci cilt tamam ol- <lb/>muştur. Cüzlerinizi ciltletiniz.
                   Müessesemiz <lb/>sureti mahsusada nefis ciltler hazırlamış ve <lb/>ayrıca
                   Avrupadan açılır kapanır modeller ge- <lb/>tirtmiştir.</p>
                <p>Abonelerimizin cüzlerinin her cildi 75 ve <lb/>okuyucularımızın her cildi 100
