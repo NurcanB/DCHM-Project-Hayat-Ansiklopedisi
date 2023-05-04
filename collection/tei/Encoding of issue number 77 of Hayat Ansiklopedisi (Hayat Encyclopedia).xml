@@ -191,7 +191,7 @@
    <text xml:lang="tr">
       <front>
          <div type="cover" facs="#Cover">
-            <p>Hayat <lb/> Ansiklopedisi</p>
+            <p rend="center">Hayat <lb/> Ansiklopedisi</p>
             <p rend="left">77</p>
             <p rend="right">KURUŞ 25</p>
             <figure>
@@ -202,7 +202,7 @@
             <p rend="center">Muhtelif Papağan tipleri</p>
             <p rend="center">Neşreden: <lb/>Matbaacılık ve Neşriyat Türk Anonim Şirketi — Cumhuriyet
                müesseseleri</p>
-            <p>ON BEŞ GÜNDE BİR CÜZ NEŞROLUNUR</p>
+            <p rend="center">ON BEŞ GÜNDE BİR CÜZ NEŞROLUNUR</p>
 
          </div>
          <div type="coverbackside" facs="#CoverBackside">
